@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página informativa del curso Conceptualización de servicios en la nube — Universidad de Guadalajara.">
+  <title>Conceptualización de servicios en la nube | Portal del Curso</title>
+  <link rel="preload" as="image" href="img/fondo-nube.jpg" fetchpriority="high">
+  <link rel="icon" type="image/png" href="img/logo-nube.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Contenedor principal de todo el sitio -->
+  <div class="contenedor">
+
+    <!-- Div para el header con el logotipo a la izquierda -->
+    <div class="header" role="banner">
+      <div class="header-brand">
+        <a href="#inicio" class="logo-link" aria-label="Inicio — Conceptualización de servicios en la nube">
+          <img
+            src="img/logo-nube.png"
+            alt="Logotipo de Conceptualización de servicios en la nube"
+            width="64"
+            height="64"
+            class="site-logo"
+            fetchpriority="high"
+          >
+        </a>
+        <div class="brand-text">
+          <span class="brand-kicker">Universidad de Guadalajara · UDGVirtual</span>
+          <span class="brand-title">Servicios en la Nube</span>
+        </div>
+      </div>
+
+      <nav class="header-nav" aria-label="Principal">
+        <ul class="nav-list">
+          <li><a href="#video-streaming">Video</a></li>
+          <li><a href="#modelos-nube">Modelos</a></li>
+          <li><a href="#identificacion">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Contenido principal -->
+    <main id="inicio" class="main-content">
+      <section class="hero">
+        <p class="hero-badge">
+          <span class="status-dot" aria-hidden="true"></span>
+          Unidad de Aprendizaje · <span lang="en">Cloud Computing</span>
+        </p>
+        <h1>Conceptualización de servicios en la nube</h1>
+        <p class="hero-lead">
+          Explora los fundamentos de la computación en la nube: entrega bajo demanda de
+          infraestructura, plataformas y aplicaciones a través de internet con alta disponibilidad,
+          escalabilidad y eficiencia operativa.
+        </p>
+      </section>
+
+      <!-- Sección con el enlace al video de un servicio de streaming -->
+      <section id="video-streaming" class="video-section">
+        <div class="video-card">
+          <div class="video-info">
+            <span class="section-eyebrow">Recurso multimedia · <span lang="en">Streaming</span> en YouTube</span>
+            <h2 id="video-heading">¿Qué es la nube (<span lang="en">Cloud Computing</span>)?</h2>
+            <p class="video-description">
+              Accede al video explicativo en español para comprender de forma clara cómo funcionan
+              los centros de datos remotos, los tipos de despliegue y los modelos principales de
+              servicios en la nube.
+            </p>
+            <div class="video-actions">
+              <a
+                href="https://www.youtube.com/watch?v=h4Af5bbFAq0"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="video-cta"
+              >
+                <svg class="icon-play" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                  <path fill="currentColor" d="M8 5.14v13.72a1 1 0 0 0 1.53.85l11.12-6.86a1 1 0 0 0 0-1.7L9.53 4.29A1 1 0 0 0 8 5.14Z"/>
+                </svg>
+                <span>Ver video en YouTube</span>
+                <svg class="icon-external" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+                  <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M14 5h5v5M10 14 19 5M19 14v5H5V5h5"/>
+                </svg>
+                <span class="visually-hidden">(abre en una nueva pestaña)</span>
+              </a>
+              <span class="video-platform">Plataforma: YouTube · EDteam</span>
+            </div>
+          </div>
+
+          <div class="video-preview" aria-hidden="true">
+            <div class="preview-frame">
+              <div class="preview-ring">
+                <svg viewBox="0 0 24 24" width="32" height="32">
+                  <path fill="currentColor" d="M8 5.14v13.72a1 1 0 0 0 1.53.85l11.12-6.86a1 1 0 0 0 0-1.7L9.53 4.29A1 1 0 0 0 8 5.14Z"/>
+                </svg>
+              </div>
+              <span class="preview-label">HD · <span lang="en">Streaming</span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modelos fundamentales de servicios en la nube -->
+      <section id="modelos-nube" class="models-section">
+        <div class="section-header">
+          <span class="section-eyebrow">Arquitectura clave</span>
+          <h2 id="modelos-heading">Modelos de servicio en la nube</h2>
+        </div>
+
+        <ul class="models-grid" role="list">
+          <li class="model-card">
+            <span class="model-tag">IaaS</span>
+            <h3>Infraestructura como Servicio</h3>
+            <p>
+              Provee servidores virtuales, redes y almacenamiento bajo demanda sin necesidad de
+              adquirir ni mantener hardware físico propio.
+            </p>
+          </li>
+
+          <li class="model-card">
+            <span class="model-tag">PaaS</span>
+            <h3>Plataforma como Servicio</h3>
+            <p>
+              Ofrece entornos administrados para desarrollar, probar y desplegar aplicaciones
+              enfocándose únicamente en el código y los datos.
+            </p>
+          </li>
+
+          <li class="model-card">
+            <span class="model-tag">SaaS</span>
+            <h3><span lang="en">Software</span> como Servicio</h3>
+            <p>
+              Entrega aplicaciones listas para usar desde el navegador, como correo electrónico,
+              almacenamiento colaborativo y plataformas de <span lang="en">streaming</span>.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Footer con los datos de identificación solicitados -->
+    <footer id="identificacion" class="site-footer">
+      <div class="footer-header">
+        <h2 class="footer-title">Datos de identificación</h2>
+        <span class="footer-badge">Actividad Académica</span>
+      </div>
+
+      <dl class="id-grid">
+        <div class="id-item">
+          <dt>Nombre del curso</dt>
+          <dd>Conceptualización de servicios en la nube</dd>
+        </div>
+
+        <div class="id-item">
+          <dt>Nombre completo</dt>
+          <dd>JUAN CARLOS URIBE CHAVIRA</dd>
+        </div>
+
+        <div class="id-item">
+          <dt>Código</dt>
+          <dd class="code-value">224790916</dd>
+        </div>
+
+        <div class="id-item">
+          <dt>Correo de contacto</dt>
+          <dd>
+            <a href="mailto:juan.uribe9091@alumnos.udg.mx" class="contact-link">
+              juan.uribe9091@alumnos.udg.mx
+            </a>
+          </dd>
+        </div>
+      </dl>
+    </footer>
+
+  </div>
+</body>
+</html>
